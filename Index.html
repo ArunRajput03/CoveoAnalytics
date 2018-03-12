@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Coveo Search</title>
+    </head>
+    <body>
+        <table cellpadding"1" border="0" cellspacing="4">
+            <tbody>
+                <tr>
+                    <th colspan="2" style="text-align: left;">Search</th>
+                </tr>
+            </tbody>
+            <tr>
+                <td>Select Environment:</td>
+                <td>
+                    <select id="CoveoEnv">
+                    <option>Select</option>
+                    </select>
+                </td>
+            </tr>
+            <tr id="trQueryPipeline" style="display: none;">
+                <td>Select Query Pipeline:</td>
+                <td>
+                    <select id="queryPipeline">
+                    <option>Select</option>
+                    </select>
+                </td>
+            </tr>
+            <tr id="tr2" style="display: none; float:left;">
+                <td><input type="text" id="q" name="q"/> </td>
+                <td>
+                    <button id="btnSearch">Get Search</button>
+                </td>
+            </tr>
+            <tr><td colspan="2" style="min-height:20px;"></td></tr>
+        </table>
+        <table id="apiRespinse" cellpadding"4" border="1" cellspacing="4" style="display: none; float:right;">
+        </table>
+
+        <table id="tableData" cellpadding"1" border="1" cellspacing="4">
+        </table>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/common.js"></script>
+</html>

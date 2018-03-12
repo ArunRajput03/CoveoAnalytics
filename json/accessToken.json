@@ -1,0 +1,36 @@
+{
+    "accessToken":[
+        {
+            "env" : "SIT - WBW",
+            "value":"xx167d1961-534a-4256-b640-1edddcc7d64f|99002|SIT-WBWB2C|https://fe-sitne-ux-apps-cd.azurewebsites.net/en/wbw"
+        },
+        {
+            "env" : "SIT - YWW",
+            "value":"xx167d1961-534a-4256-b640-1edddcc7d64f|99002|SIT-YWWB2C|https://fe-sitne-ux-apps-cd.azurewebsites.net/en/yww"
+        },
+        {
+            "env" : "CE - WBW",
+            "value":"xx68dec2c7-198e-40ab-bb27-37cfb2d9e39d|72550|CE-WBWB2C|https://fe-ceqa-ux-apps-cd.azurewebsites.net/en/wbw"
+        },
+        {
+            "env" : "CE - YWW",
+            "value":"xx68dec2c7-198e-40ab-bb27-37cfb2d9e39d|72550|CE--YWWB2C|https://fe-ceqa-ux-apps-cd.azurewebsites.net/en/yww"
+        },
+        {
+            "env" : "NFR - WBW",
+            "value":"xx167d1961-534a-4256-b640-1edddcc7d64f|14880|NFR-WBWB2C"
+        },
+        {
+            "env" : "NFR - YWW",
+            "value":"xx167d1961-534a-4256-b640-1edddcc7d64f|14880|NFR-YWWB2C"
+        },
+        {
+            "env" : "UAT2 - WBW",
+            "value":"xx68dec2c7-198e-40ab-bb27-37cfb2d9e39d|18441|UAT2-WBWB2C"
+        },
+        {
+            "env" : "UAT2 - YWW",
+            "value":"xx68dec2c7-198e-40ab-bb27-37cfb2d9e39d|18441|UAT2-YWWB2C"
+        }
+    ]
+}
